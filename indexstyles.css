@@ -1,123 +1,121 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
-*{
+
+* {
     box-sizing: border-box;
     font-family: Raleway;
-    
 }
 
-html, body{
+html, body {
     margin: 0;
     padding: 0;
-    background-color:rgb(27, 27, 31);
-    color:rgb(250, 250, 250);
+    background-color: rgb(27, 27, 31);
+    color: rgb(250, 250, 250);
 }
 
-.menu
-{
-  background: rgb(27, 27, 31);
-  border-radius: 6px;
-  position: relative;
-  
+.menu {
+    background: rgb(27, 27, 31);
+    border-radius: 6px;
+    position: relative;
 }
 
-.menu ul
-{
-  display: flex;
-  justify-content: left;
-  align-items: center;
+.menu ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
-.menu ul li
-{
-  list-style: none;
-  padding: 10px;
-  position: relative;
-  transition: 0.5s;
-  display: block;
-  z-index: 1;
-  font-size: 1.2em
+.menu ul li {
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    transition: 0.5s;
+    display: block;
+    z-index: 1;
+    font-size: 1.2em
 }
 
-.menu ul li a
-{
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 10px;
-  border-radius: 6px;
-  transition: 1s;
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    transition: 1s;
 }
 
-.menu ul li a:hover
-{
-  
-  background: rgb(27, 27, 31);
-  transition: 1s;
+.menu ul li:hover a{
+    background: rgb(27, 27, 31);
+    transition: 1s;
 }
 
-.menu ul li ul
-{
-  transition: 1s;
-  background: rgb(27, 27, 31);
-  display: none;
-  font-size: 0.75em;
+.menu ul li ul {
+    transition: 1s;
+    background: rgb(27, 27, 31);
+    display: none;
+    font-size: 0.75em;
 }
 
-.menu ul li:hover ul
-{
-  display: block;
-  position: absolute;
-  top:32px;
-  margin-top: 5px;
-  background: rgb(27, 27, 31);
-  border-radius: 6px;
-  width: 155%;
-  padding: 10px 2px;
-  box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
-  transition: 1s;
+.menu ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 32px;
+    margin-top: 5px;
+    background: rgb(27, 27, 31);
+    border-radius: 6px;
+    width: 155%;
+    padding: 10px 2px;
+    transition: 1s;
+}
+
+.menu ul li ul li a:hover {
+    background: #23B684;
 }
 
 
 
-.main-header{
-    background-color:rgb(27, 27, 31);
+.main-header {
+    background-color: rgb(27, 27, 31);
     background-size: cover;
 }
 
-.name{
+.name {
     z-index: 0;
-    color:rgb(250, 250, 250);
+    color: rgb(250, 250, 250);
     margin-left: 20px;
     font-size: 6em;
-    position:absolute;
-    top:70px;
-    right:160px;
+    position: absolute;
+    top: 70px;
+    right: 160px;
     padding: 0;
     border: 0px;
-    
 }
 
-.aboutme{
+.aboutme {
     z-index: 2;
     margin-left: 50px;
-    position:absolute;
-    top:400px;
+    position: absolute;
+    top: 400px;
 }
-.aboutme h1{
-    color: aliceblue;
-    font-size: 3em;
-    margin:0px;
-}
-.aboutme li{
-    display: inline;
-    margin-right: 25px;
-}
-.summary{
-    margin-bottom:25px;
+
+    .aboutme h1 {
+        color: aliceblue;
+        font-size: 3em;
+        margin: 0px;
+    }
+
+    .aboutme li {
+        display: inline;
+        margin-right: 25px;
+    }
+
+.summary {
+    margin-bottom: 25px;
     color: rgb(142, 144, 146);
 }
-footer{
+
+footer {
     display: none;
 }
+
 #gradient-canvas {
     z-index: 0;
     width: 100%;
@@ -130,4 +128,4 @@ footer{
     --gradient-color-2: #032E46;
     --gradient-color-3: #23B684;
     --gradient-color-4: #0F595E;
-  }
+}
