@@ -114,16 +114,14 @@ footer{
 }
 #gradient-canvas {
     z-index: -1;
-    width:1965px;
-    height:300px;
-    position:absolute;
+    width: 1965px;
+    height: 600px;
+    position: absolute;
     bottom: 0px;
-    top: 70px;
-    
-
-    clip-path: polygon(0 0,100% 0, 100% 70%,0% 100%);
-    --gradient-color-1: #043D5D; 
-    --gradient-color-2: #032E46; 
-    --gradient-color-3: #23B684;  
+    top: 0px;
+    clip-path: polygon(0 0,60% 0, 60% 0,0% 100%);
+    --gradient-color-1: #043D5D;
+    --gradient-color-2: #032E46;
+    --gradient-color-3: #23B684;
     --gradient-color-4: #0F595E;
   }
