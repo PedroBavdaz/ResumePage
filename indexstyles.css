@@ -121,7 +121,7 @@ footer{
     top: 70px;
     
 
-    clip-path: polygon(0 0,70% 0, 70% 0,70% 0);
+    clip-path: polygon(0 0,80% 0, 100% 0);
     --gradient-color-1: #043D5D; 
     --gradient-color-2: #032E46; 
     --gradient-color-3: #23B684;  
