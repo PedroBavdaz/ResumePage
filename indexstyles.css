@@ -23,7 +23,7 @@ html, body{
 .menu ul
 {
   display: flex;
-  justify-content: right;
+  justify-content: left;
   align-items: center;
 }
 
@@ -121,7 +121,7 @@ footer{
     top: 70px;
     
 
-    clip-path: polygon(0 0,80% 0, 100% 0,0% 100%);
+    clip-path: polygon(0 0,100% 0, 100% 0,0% 80%);
     --gradient-color-1: #043D5D; 
     --gradient-color-2: #032E46; 
     --gradient-color-3: #23B684;  
