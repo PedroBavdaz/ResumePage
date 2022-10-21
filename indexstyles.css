@@ -35,7 +35,7 @@ html, body{
   transition: 0.5s;
   display: block;
   z-index: 1;
-  font-size: 1em
+  font-size: 1.2em
 }
 
 .menu ul li a
@@ -44,13 +44,13 @@ html, body{
   text-decoration: none;
   padding: 10px 10px;
   border-radius: 6px;
+  transition: 1s;
 }
 
 .menu ul li a:hover
 {
   
   background: rgb(27, 27, 31);
-  
   transition: 1s;
 }
 
@@ -58,11 +58,12 @@ html, body{
 {
   background: rgb(27, 27, 31);
   display: none;
+  font-size: 0.75em;
+  transition: 1s;
 }
 
 .menu ul li:hover ul
 {
-  transition: 1s;
   display: block;
   position: absolute;
   top:32px;
@@ -72,6 +73,7 @@ html, body{
   width: 155%;
   padding: 10px 2px;
   box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
+  transition: 1s;
 }
 
 
@@ -88,8 +90,9 @@ html, body{
     font-size: 6em;
     position:absolute;
     top:70px;
+    right:160px;
     padding: 0;
-    border: 0px
+    border: 0px;
     
 }
 
@@ -116,13 +119,13 @@ footer{
     display: none;
 }
 #gradient-canvas {
-    z-index: -1;
-    width: 1965px;
-    height: 600px;
+    z-index: 0;
+    width: 100%;
+    height: 50%;
     position: absolute;
     bottom: 0px;
     top: 0px;
-    clip-path: polygon(0 0,60% 0, 60% 0,0% 100%);
+    clip-path: polygon(0 0,75% 0, 75% 0,0% 100%);
     --gradient-color-1: #043D5D;
     --gradient-color-2: #032E46;
     --gradient-color-3: #23B684;
