@@ -62,7 +62,7 @@ html, body{
   font-size: 0.75em;
 }
 
-.menu ul li a:hover ul
+.menu ul li:hover ul
 {
   display: block;
   position: absolute;
