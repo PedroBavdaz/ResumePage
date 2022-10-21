@@ -34,6 +34,8 @@ html, body{
   position: relative;
   transition: 0.5s;
   display: block;
+  z-index: 1;
+  font-size: 1em
 }
 
 .menu ul li a
@@ -41,13 +43,14 @@ html, body{
   color: #fff;
   text-decoration: none;
   padding: 10px 10px;
+  border-radius: 6px;
 }
 
 .menu ul li a:hover
 {
   
-  background: #0F595E;
-  border-radius: 6px;
+  background: rgb(27, 27, 31);
+  
   transition: 1s;
 }
 
