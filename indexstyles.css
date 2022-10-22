@@ -63,7 +63,16 @@ html, body {
     border-radius: 6px;
     width: 155%;
     padding: 10px 2px;
-    transition: 1s;
+    animation-name: dropdown;
+    animation-duration: 1s;
+    
+}
+
+@keyframes dropdown {
+    from {opacity: 0;
+    transform: translateY(40px);}
+    to {opacity: 1;
+    transform: translateY(0px);}
 }
 
 .menu ul li ul li a:hover {
@@ -90,22 +99,23 @@ html, body {
 }
 
 .aboutme {
+    
     z-index: 2;
     margin-left: 50px;
     position: absolute;
-    top: 400px;
+    top: 50%;
 }
 
-    .aboutme h1 {
-        color: aliceblue;
-        font-size: 3em;
-        margin: 0px;
-    }
+.aboutme h1 {
+    color: aliceblue;
+    font-size: 3em;
+    margin: 0px;
+}
 
-    .aboutme li {
-        display: inline;
-        margin-right: 25px;
-    }
+.aboutme li {
+    display: inline;
+    margin-right: 25px;
+}
 
 .summary {
     margin-bottom: 25px;
@@ -129,3 +139,4 @@ footer {
     --gradient-color-3: #23B684;
     --gradient-color-4: #0F595E;
 }
+
